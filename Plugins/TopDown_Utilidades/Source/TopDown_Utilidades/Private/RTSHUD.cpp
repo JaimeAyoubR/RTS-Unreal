@@ -10,13 +10,13 @@ void ARTSHUD::ActorsSelectedInRect()
 	FVector2D EndPos = RectStartPos + RectSize;
 	GetActorsInSelectionRectangle<AActor>(StartPos,EndPos,ActorsSelected,false);
 	SelectedActors = false;
-	for (AActor* Actor : ActorsSelected)
-	{
-		if (Actor != nullptr)
-		{
-			
-		}
-	}
+	// for (AActor* Actor : ActorsSelected)
+	// {
+	// 	if (Actor != nullptr)
+	// 	{
+	// 		UE_LOG(LogTemp, Warning, TEXT("ActorsSelectedInRect"));
+	// 	}
+	// }
 }
 
 TArray<AActor*> ARTSHUD::GetSelectedActors()

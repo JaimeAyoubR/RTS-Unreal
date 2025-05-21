@@ -49,6 +49,7 @@ void ABasePawn::Move()
 {
 	if (!bIsMoving)
 	{
+		
 		return;
 	}
 

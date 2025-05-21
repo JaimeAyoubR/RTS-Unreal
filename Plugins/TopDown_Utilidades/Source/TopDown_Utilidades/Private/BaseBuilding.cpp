@@ -42,6 +42,7 @@ void ABaseBuilding::BeginPlay()
 void ABaseBuilding::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//UE_LOG(LogTemp, Display, TEXT("AAAAAAAAAAAAAAH"));
 }
 
 void ABaseBuilding::SelectActor_Implementation(const bool select)

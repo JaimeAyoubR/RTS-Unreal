@@ -49,6 +49,7 @@ void AControllerPawn::Move(const FInputActionValue& Value)
 	const FVector2D InputMovement = Value.Get<FVector2D>();
 	if (Controller)
 	{
+		
 		const FRotator Rotator = Controller->GetControlRotation();
 		const FRotator YRotation(0, Rotator.Yaw, 0);
 

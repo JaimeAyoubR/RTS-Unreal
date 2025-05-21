@@ -49,7 +49,7 @@ protected:
 	FVector MoveTargetLocation = FVector::ZeroVector;
 	bool bIsMoving = false;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Pawn, meta = (AllowPrivateAccess = "true"))
-	float DistanceOffset = 50.f;
+	float DistanceOffset = 5.f;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Pawn, meta = (AllowPrivateAccess = "true"))
 	float RotationSpeed = 5.0f;
 
